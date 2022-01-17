@@ -61,7 +61,7 @@ function parseS3HttpUrl(url) {
         const keySplit = key.split("/");
         keySplit.shift();
         bucket = keySplit.shift();
-        key = [["/"], keySplit.join("/")].join("");
+        key = keySplit.join("/");
         region = hostNameParts[1];
     }
     return {
@@ -94,7 +94,7 @@ function parseS3Arn(url) {
     const split = url.split(":");
     const keySplit = split[5].split("/");
     const bucket = keySplit.shift();
-    const key = [["/"], keySplit.join("/")].join("");
+    const key = keySplit.join("/");
     return {
         bucket,
         region: null,
