@@ -11,5 +11,7 @@ console.log(parseS3Url("https://s3.eu-west-1.amazonaws.com/bucket_name/object.tx
 ```
 
 Support with formats before 2020: yes
+
 Dependencies: 0
+
 License: MIT
