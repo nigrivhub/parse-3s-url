@@ -1,6 +1,6 @@
 {
   "name": "@nigrivhub/parse-s3-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One-file utility to get bucket name, region and key having S3 referency in all supported formats.",
   "main": "index.js",
   "scripts": {
