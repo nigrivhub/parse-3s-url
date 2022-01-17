@@ -1,0 +1,27 @@
+{
+  "name": "@nigrivhub/parse-s3-url",
+  "version": "1.0.0",
+  "description": "One-file utility to get bucket name, region and key having S3 referency in all supported formats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "ci": "npm run test && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigrivhub/parse-s3-url.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "utility",
+    "parse",
+    "url"
+  ],
+  "author": "Nigriv Sp. z o.o.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nigrivhub/parse-s3-url/issues"
+  },
+  "homepage": "https://github.com/nigrivhub/parse-s3-url#readme"
+}
